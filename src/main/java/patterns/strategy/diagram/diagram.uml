@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="541.5" y="344.5">patterns.strategy.Dictionnary</node>
+    <node x="275.0" y="196.5">patterns.strategy.ISpeak</node>
+    <node x="275.0" y="-3.5">patterns.strategy.French</node>
+    <node x="-5.0" y="196.5">patterns.strategy.Anglais</node>
+    <node x="275.0" y="516.5">patterns.strategy.Vietnam</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="patterns.strategy.French" target="patterns.strategy.ISpeak">
+      <point x="0.0" y="43.5" />
+      <point x="0.0" y="-43.5" />
+    </edge>
+    <edge source="patterns.strategy.Anglais" target="patterns.strategy.ISpeak">
+      <point x="85.0" y="0.0" />
+      <point x="-85.0" y="0.0" />
+    </edge>
+    <edge source="patterns.strategy.Vietnam" target="patterns.strategy.ISpeak">
+      <point x="0.0" y="-43.5" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="patterns.strategy.Dictionnary" target="patterns.strategy.ISpeak">
+      <point x="-138.5" y="0.0" />
+      <point x="400.0" y="440.0" />
+      <point x="40.0" y="43.5" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="1.0" x="454.5" y="144.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
